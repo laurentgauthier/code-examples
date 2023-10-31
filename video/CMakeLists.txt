@@ -1,5 +1,7 @@
 project(video)
-cmake_minimum_required(VERSION 2.8)
+
+cmake_minimum_required(VERSION 3.0)
+
 include_directories(include)
 # Add both src and include to the list of source files
 file(GLOB SRC_LIST include/video/*.h src/*.c )

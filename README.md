@@ -17,7 +17,8 @@ In addition to this code you will also need a fresh clone of the YAML-cpp C++ li
 
 These code examples are built using `cmake`, so make sure to have it installed.
 
-    mkdir -p build/code-examples
-    cd build/code-examples
-    cmake ../../code-examples
+    mkdir code-examples/build
+    cd code-examples/build
+    cmake ..
+    make
   
